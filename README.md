@@ -68,3 +68,33 @@ TimeoutException解析
   2017-07-20 17:10:41.044 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-L-1] ERROR o.s.k.s.LoggingProducerListener -Exception thrown when sending a message with key='null' and payload='{"topic":"media-asset-mzk","id":"ad674850-1bfd-01ba-f8ce-0d1ad56e0b55","body":{"application":"mzk-au...' to topic media-asset-mzk:
   org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 60000 ms.
 </pre>
+
+<pre>
+以Kafka为中心的解决方案	
+Kafka核心概念：
+     Topic VS Log
+	 Broker
+	 副本
+	 生产者
+	 消费者
+
+生产者 KafkaProducer
+     KafkaProducer分析
+     Sender分析	 
+	 
+消费者 
+     KafkaConsumer
+
+Kafka服务端
+    1）网络层
+    2）API层
+    3）日志存储
+    5）副本机制
+    6）KafkaController
+    7）GroupCoordinator
+    8）身份认证与权限控制
+    9）Kafka监控
+
+KafkaTool
+    kafka各种脚本	
+</pre>
